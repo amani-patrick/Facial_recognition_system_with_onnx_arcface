@@ -1,0 +1,14 @@
+[project]
+name = "facial-recognition-system"
+version = "0.1.0"
+description = "Face recognition system using ArcFace ONNX and 5-point alignment"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "onnxruntime",
+    "scipy",
+    "tqdm",
+    "mediapipe"
+]
